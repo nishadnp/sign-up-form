@@ -16,8 +16,10 @@ label {
     
 }
 
-input {
+fieldset input {
     display: block;
+    border-radius: 3px;
+    border: 1px solid #E5E7EB;
 }
 
 .graphics-section {
