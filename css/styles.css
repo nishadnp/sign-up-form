@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 body {
@@ -17,4 +16,15 @@ body div {
     background-image: url("../assets/images/background-image.jpg");
     background-size: cover;
     background-position: center;
+}
+
+label {
+    display: inline-block;
+    width: 40%;
+    font-size: 0.7rem;
+    
+}
+
+input {
+    display: block;
 }
