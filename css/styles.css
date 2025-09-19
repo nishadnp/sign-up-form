@@ -40,3 +40,9 @@ fieldset input {
     width: 65%;
     padding-left: 2rem;
 }
+
+.form-section-text {
+    font-weight: 700;
+    font-size: 1.4rem;
+    width: 55ch;
+}
