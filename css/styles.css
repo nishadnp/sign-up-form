@@ -50,3 +50,14 @@ fieldset input {
 .form-section-text, label {
     font-family: sans-serif;
 }
+
+button[type="submit"] {
+    background-color: #596D48;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.9rem;
+    width: 180px;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+}
