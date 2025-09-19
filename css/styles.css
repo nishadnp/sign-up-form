@@ -13,13 +13,15 @@ label {
     display: inline-block;
     width: 40%;
     font-size: 0.7rem;
-    
 }
 
 fieldset input {
     display: block;
     border-radius: 3px;
     border: 1px solid #E5E7EB;
+    height: 1.5rem;
+    width: 200px;
+    margin-bottom: 1.5rem;
 }
 
 .graphics-section {
