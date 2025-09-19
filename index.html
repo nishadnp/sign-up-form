@@ -21,22 +21,22 @@
             <fieldset>
                 <p class="form-section-text">Let's do this!</p>
                 <label for="user-first-name">FIRST NAME
-                    <input type="text" name="user-first-name" id="user-first-name">
+                    <input type="text" name="user-first-name" id="user-first-name" minlength="2" maxlength="60" pattern="^[A-Za-z' -]{2,60}$" title="Enter your first name (letters, spaces, apostrophes, hyphens; min 2 characters and max 60 characters)" required>
                 </label>
                 <label for="user-last-name">LAST NAME
-                    <input type="text" name="user-last-name" id="user-last-name">
+                    <input type="text" name="user-last-name" id="user-last-name" minlength="2" maxlength="60" pattern="^[A-Za-z' -]{2,60}$" title="Enter your last name (letters, spaces, apostrophes, hyphens; min 2 characters and max 60 characters)" required>
                 </label>
                 <label for="user-email">EMAIL
-                    <input type="email" name="user-email" id="user-email">
+                    <input type="email" name="user-email" id="user-email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="username@example.com" required>
                 </label>
                 <label for="user-phone">PHONE NUMBER
-                    <input type="tel" name="user-phone" id="user-phone">
+                    <input type="tel" name="user-phone" id="user-phone" minlength="10" maxlength="10" pattern="^\d{10}$" title="Enter 10 digit number" required>
                 </label>
                 <label for="user-password">PASSWORD
-                    <input type="password" name="user-password" id="user-password">
+                    <input type="password" name="user-password" id="user-password" pattern="^[a-zA-Z0-9]{8,16}$"  title="Password must be between 8 and 16 alphanumeric characters" required>
                 </label>
                 <label for="confirm-password">CONFIRM PASSWORD
-                    <input type="password" name="confirm-password" id="confirm-password">
+                    <input type="password" name="confirm-password" id="confirm-password" title="Passwords must match" required>
                 </label>
             </fieldset>
             <button type="submit">Create Account</button>
