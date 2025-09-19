@@ -1,3 +1,7 @@
+:root {
+    --mosswood-green: #596D48;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -52,7 +56,7 @@ fieldset input {
 }
 
 button[type="submit"] {
-    background-color: #596D48;
+    background-color: var(--mosswood-green);
     color: #ffffff;
     font-weight: 700;
     font-size: 0.9rem;
