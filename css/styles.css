@@ -16,6 +16,8 @@ body {
 fieldset {
     border: none;
     padding: 0;
+    box-shadow: 0 4px 0 0 #50507518;
+    margin-bottom: 2rem
 }
 
 label {
@@ -41,8 +43,10 @@ fieldset input {
 }
 
 .form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 65%;
-    padding-left: 2rem;
 }
 
 .form-section-text {
@@ -51,7 +55,15 @@ fieldset input {
     width: 55ch;
 }
 
-.form-section-text, label {
+.login-text {
+    font-size: 0.875rem;
+}
+
+.form-section-text, label, fieldset + div {
+    padding-left: 3rem;
+}
+
+.form-section-text, label, .login-text {
     font-family: sans-serif;
 }
 
