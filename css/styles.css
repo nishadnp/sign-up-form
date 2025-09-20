@@ -17,7 +17,8 @@ fieldset {
     border: none;
     padding: 0;
     box-shadow: 0 4px 0 0 #50507518;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
+    background-color: #ffffff;
 }
 
 label {
@@ -47,6 +48,7 @@ fieldset input {
     flex-direction: column;
     justify-content: center;
     width: 65%;
+    background-color: #f8fafb;
 }
 
 .form-section-text {
