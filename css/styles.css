@@ -1,3 +1,5 @@
+/* ===== GLOBAL STYLES ===== */
+
 @font-face {
     font-family: 'norse-bold';
     src: url('../assets/fonts/Norse-Bold.otf') format('opentype');
@@ -20,32 +22,8 @@ body {
     font-family: sans-serif;
 }
 
-fieldset {
-    border: none;
-    padding: 0;
-    box-shadow: 0 4px 0 0 #50507518;
-    margin-bottom: 2rem;
-    background-color: #ffffff;
-}
 
-label {
-    display: inline-block;
-    width: 35%;
-    font-size: 0.7rem;
-    color: #575E69;
-    font-weight: 700;
-    letter-spacing: 0.05rem;
-}
-
-fieldset input {
-    display: block;
-    border-radius: 3px;
-    border: 1px solid #E5E7EB;
-    height: 1.5rem;
-    width: 200px;
-    margin-top: 0.2rem;
-    margin-bottom: 1.5rem;
-}
+/* ===== LEFT SECTION OF PAGE ===== */
 
 .graphics-section {
     background-image: url("../assets/images/background-image.jpg");
@@ -53,56 +31,6 @@ fieldset input {
     background-position: center;
     width: 35%;
     position: relative;
-}
-
-.form-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 65%;
-    background-color: #f8fafb;
-}
-
-.form-section-text {
-    font-weight: 700;
-    font-size: 1.4rem;
-    width: 55ch;
-}
-
-.login-text {
-    font-size: 0.875rem;
-}
-
-.form-section-text, label, fieldset + div {
-    padding-left: 3rem;
-}
-
-
-button[type="submit"] {
-    background-color: var(--mosswood-green);
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 0.9rem;
-    width: 180px;
-    height: 2.5rem;
-    border: none;
-    border-radius: 5px;
-}
-
-.login-text > a {
-    text-decoration: none;
-    color: var(--mosswood-green);
-    font-weight: 700;
-}
-
-input:focus {
-    border: 1px solid #2A27CC;
-    outline: none;
-    box-shadow: 1.5px 1.5px 0 0 #4F4F7469;
-}
-
-input:invalid{
-    border: 1px solid #B91C1C;
 }
 
 .logo-text {
@@ -132,4 +60,83 @@ input:invalid{
 
 .left-footer > a {
     color: inherit;
+}
+
+
+/* ===== RIGHT SECTION OF PAGE ===== */
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    background-color: #f8fafb;
+}
+
+.form-section-text {
+    font-weight: 700;
+    font-size: 1.4rem;
+    width: 55ch;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    box-shadow: 0 4px 0 0 #50507518;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+}
+
+label {
+    display: inline-block;
+    width: 35%;
+    font-size: 0.7rem;
+    color: #575E69;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+
+fieldset input {
+    display: block;
+    border-radius: 3px;
+    border: 1px solid #E5E7EB;
+    height: 1.5rem;
+    width: 200px;
+    margin-top: 0.2rem;
+    margin-bottom: 1.5rem;
+}
+
+input:focus {
+    border: 1px solid #2A27CC;
+    outline: none;
+    box-shadow: 1.5px 1.5px 0 0 #4F4F7469;
+}
+
+input:invalid{
+    border: 1px solid #B91C1C;
+}
+
+.form-section-text, label, fieldset + div {
+    padding-left: 3rem;
+}
+
+button[type="submit"] {
+    background-color: var(--mosswood-green);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.9rem;
+    width: 180px;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-text {
+    font-size: 0.875rem;
+}
+
+.login-text > a {
+    text-decoration: none;
+    color: var(--mosswood-green);
+    font-weight: 700;
 }
