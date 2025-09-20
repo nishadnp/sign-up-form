@@ -123,3 +123,15 @@ input:invalid{
     color: #ffffff;
     font-size: 7rem;
 }
+
+.left-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.left-footer > a {
+    color: inherit;
+}
