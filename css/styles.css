@@ -91,7 +91,7 @@ button[type="submit"] {
     border-radius: 5px;
 }
 
-a {
+.login-text > a {
     text-decoration: none;
     color: var(--mosswood-green);
     font-weight: 700;
