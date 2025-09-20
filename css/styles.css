@@ -25,6 +25,9 @@ label {
     display: inline-block;
     width: 35%;
     font-size: 0.7rem;
+    color: #575E69;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
 }
 
 fieldset input {
@@ -33,6 +36,7 @@ fieldset input {
     border: 1px solid #E5E7EB;
     height: 1.5rem;
     width: 200px;
+    margin-top: 0.2rem;
     margin-bottom: 1.5rem;
 }
 
@@ -78,6 +82,12 @@ button[type="submit"] {
     height: 2.5rem;
     border: none;
     border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--mosswood-green);
+    font-weight: 700;
 }
 
 input:focus {
